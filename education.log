@@ -1,0 +1,54 @@
+2023-09-16 13:51:11.547  INFO 3708 --- [main] c.education.api.EducationApiApplication  : Starting EducationApiApplication using Java 1.8.0_361 on DESKTOP-NQ5V6F8 with PID 3708 (D:\zzx\wisdom-education\wisdom-education\education-api\target\classes started by ll in D:\zzx\wisdom-education\wisdom-education)
+2023-09-16 13:51:11.549  INFO 3708 --- [main] c.education.api.EducationApiApplication  : The following profiles are active: dev
+2023-09-16 13:51:12.319  INFO 3708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-16 13:51:12.320  INFO 3708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-16 13:51:12.335  INFO 3708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-09-16 13:51:12.858  INFO 3708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-09-16 13:51:12.865  INFO 3708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-16 13:51:12.865  INFO 3708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-09-16 13:51:12.924  INFO 3708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-16 13:51:12.925  INFO 3708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1233 ms
+2023-09-16 13:51:13.394  INFO 3708 --- [main] org.redisson.Version                     : Redisson 3.12.5
+2023-09-16 13:51:13.625  INFO 3708 --- [redisson-netty-4-3] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for /129.204.199.208:6379
+2023-09-16 13:51:13.634  INFO 3708 --- [redisson-netty-4-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for /129.204.199.208:6379
+2023-09-16 13:51:13.773  INFO 3708 --- [main] i.s.t.c.l.SPIDataSourceMapConverter      : Could not find XA DataSourceConverter, XA transaction will not be effective
+2023-09-16 13:51:13.774  INFO 3708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-16 13:51:14.198  INFO 3708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-16 13:51:14.207  INFO 3708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-16 13:51:14.535  INFO 3708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-16 13:51:15.691  INFO 3708 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 5.2.4 by Boxfuse
+2023-09-16 13:51:15.933  INFO 3708 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://129.204.199.208:3306/education (MySQL 8.0)
+2023-09-16 13:51:16.535  INFO 3708 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 60 migrations (execution time 00:00.369s)
+2023-09-16 13:51:16.910  INFO 3708 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `education`: 1.0.6.5
+2023-09-16 13:51:16.910  WARN 3708 --- [main] o.f.core.internal.command.DbMigrate      : outOfOrder mode is active. Migration of schema `education` may not be reproducible.
+2023-09-16 13:51:16.938  INFO 3708 --- [main] o.f.core.internal.command.DbMigrate      : Schema `education` is up to date. No migration necessary.
+2023-09-16 13:51:17.285  INFO 3708 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-09-16 13:51:17.290  INFO 3708 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-09-16 13:51:17.290  INFO 3708 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-09-16 13:51:17.291  INFO 3708 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-09-16 13:51:17.291  INFO 3708 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-09-16 13:51:17.291  INFO 3708 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-09-16 13:51:17.291  INFO 3708 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-09-16 13:51:17.292  INFO 3708 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@559e3f67
+2023-09-16 13:51:17.952  WARN 3708 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-09-16 13:51:18.032  INFO 3708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-09-16 13:51:18.034  INFO 3708 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [129.204.199.208:5672]
+2023-09-16 13:51:18.158  INFO 3708 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#4d8056bf:0/SimpleConnection@675230cd [delegate=amqp://user@129.204.199.208:5672/, localPort= 60873]
+2023-09-16 13:51:18.675  INFO 3708 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-09-16 13:51:18.675  INFO 3708 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-09-16 13:51:18.683  INFO 3708 --- [main] c.education.api.EducationApiApplication  : Started EducationApiApplication in 7.48 seconds (JVM running for 7.898)
+2023-09-16 13:51:18.683  INFO 3708 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-09-16 13:51:18.738  INFO 3708 --- [main] ShardingSphere-SQL                       : Rule Type: master-slave
+2023-09-16 13:51:18.738  INFO 3708 --- [main] ShardingSphere-SQL                       : SQL: SELECT COUNT( 1 ) FROM calendar ::: DataSources: educationslave
+2023-09-16 13:51:18.846  INFO 3708 --- [main] c.e.b.interceptor.MybatisSqlMonitor      : 
+Mybatis Sql take time report -------- 2023-09-16 13:51:18 --------------------------
+Sql          : SELECT COUNT( 1 ) FROM calendar
+Sql执行时间  :------------------------71ms---------------------------------
+2023-09-16 13:51:18.849  INFO 3708 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC

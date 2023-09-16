@@ -1,0 +1,7 @@
+# Project exclude paths
+/education-auth/target/
+/education-business/target/
+/education-canal/target/
+/education-common/target/
+/education-common-api/target/
+/education-model/target/
